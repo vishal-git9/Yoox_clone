@@ -1,1 +1,12 @@
-hello, this is saurav
+<div id="user-bar">
+            <div class="userbar-left">
+                <h5>INDIA</h5>
+                <h5>CUSTOMER CARE</h5>
+            </div>
+            <div class="userbar-right">
+                <h5> REGISTER</h5>
+                <h5>LOGIN</h5>
+
+            </div>
+
+        </div>
