@@ -44,7 +44,7 @@ const navbar=()=>{
             <p id="clothing">CLOTHING</p>
             <p id="shoes">SHOES</p>
             <p id="accessories">ACCESSORIES</p>
-            <p>8 BY YOOX</p>
+            <p id="eight">8 BY YOOX</p>
             <p id="yooxygen">YOOXYGEN</p>
             <p id="collab">COLLABORATIONS</p>
             <p id="bestdeal">BEST DEALS</p>
