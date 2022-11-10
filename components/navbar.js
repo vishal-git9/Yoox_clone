@@ -15,7 +15,7 @@ const navbar=()=>{
     <div id="userbar-secondary">
 
         <div>
-            <h5>WOMEN</h5>
+            <a href = "womens.html"><h5>WOMEN</h5></a>
             <h5>MEN</h5>
             <h5>KIDS</h5>
             <h5>DESIGN+ART</h5>
