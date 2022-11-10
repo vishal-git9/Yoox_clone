@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-weight:bolder;
 }
 #head{
     
@@ -44,13 +47,20 @@ body{
     width: 250px;
     position: relative;
 }
-#left-menu>div{
+#left-menu>button{
     border: 0.1px solid white;
     margin-top: 5px;
     background-color: rgb(245,245,245);
     padding-left: 15px;
 
 }
+#left-menu>div>p{
+    
+    
+    font-size: smaller;
+ 
+     
+ }
 #post{
     display: grid;
     grid-template-columns: repeat(3,210px);
@@ -67,3 +77,38 @@ body{
     margin: auto;
     margin-top: -10px;
 }
+
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+
+
+  .tab4{
+    font-size: large;
+  }
