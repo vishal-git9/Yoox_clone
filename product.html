@@ -24,8 +24,29 @@
             <p>SAVE SEARCH</p>
             <p>16000+ items</p>
             <div>
-                <p>SORT BY </p>
-                <p>pg</p>
+                <!-- <p>Sort by
+                <select name="sortby" id="sortp">
+                    <option value=""></option>
+                    <option value="LATEST ARRIVALS"></option>
+                    <option value="HIGHEST PRICE"></option>
+                    <option value="LOWEST PRICE"></option>
+
+                </select> </p> -->
+                <div class="dropdown">
+                    <span>sort by <span class="material-symbols-outlined">
+                        arrow_drop_down
+                        </span></span>
+                    <div class="dropdown-content">
+                    <p>LATEST ARRIVALS</p>
+                    <p>HIGHEST PRICE</p>
+                    <p>LOWEST PRICE</p>
+                    </div>
+                  </div>
+                <p id="up"><span class="material-symbols-outlined">
+                    arrow_left
+                    </span>1<span class="material-symbols-outlined">
+                    arrow_right
+                    </span></p>
             </div>
             
         </div>
@@ -146,27 +167,45 @@
             
             </div>
 
-            <button class="accordion">PRICE RANGE</button>
+            <button class="accordion">PRICE RANGE<span class="tab4">+</span></button>
+            <div class="panel">
+             <p><input type="radio" id="see-all" name="PRICE" checked>SEE ALL</p>
+             <p></p><input type="radio" id="7500" name="PRICE" > UP TO US$ 75,00 </p>
+            <p><input type="radio" name="PRICE" >UP TO US$ 150,00</p>
+            <p><input type="radio" name="PRICE" >UP TO US$ 200,00</p>
+            </div>
+
+            <button class="accordion">SIZES <span class="tab4">+</span></button>
+            <div class="panel">
+                <p><input type="radio" checked name="Size" >XXS</p>
+                <p><input type="radio" name="Size">XS</p>
+                <p><input type="radio" name="Size">S</p>
+                <p><input type="radio" name="Size">M</p>
+                <p><input type="radio" name="Size">L</p>
+                <p><input type="radio" name="Size">XL</p>
+                <p><input type="radio" name="Size">XXL</p>
+                <p><input type="radio" name="Size">XXXL</p>
+            
+            </div>
+
+            <button class="accordion">COLORS<span class="tab4">+</span></button>
+            <div class="panel">
+                <p><input type="radio" checked name="COLORS">Black</p>
+                <p><input type="radio" name="COLORS">Red</p>
+                <p><input type="radio" name="COLORS">Yellow</p>
+                <p><input type="radio" name="COLORS">Pink</p>
+                <p><input type="radio" name="COLORS">Brown</p>
+                <p><input type="radio" name="COLORS">Blue</p>
+                <p><input type="radio" name="COLORS">Green</p>
+                <p><input type="radio" name="COLORS">Orange</p>
+            </div>
+
+            <button class="accordion">PRINT<span class="tab4">+</span></button>
             <div class="panel">
             <p>Lorem ipsum...</p>
             </div>
 
-            <button class="accordion">SIZES</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-
-            <button class="accordion">COLORS</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-
-            <button class="accordion">PRINT</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-
-            <button class="accordion">MATERIALS</button>
+            <button class="accordion">MATERIALS<span class="tab4">+</span></button>
             <div class="panel">
             <p>Lorem ipsum...</p>
             </div>
