@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -51,7 +58,10 @@ body{
     height: 70px;
     
 }
-    
+#userbar-secondary>div>a{
+    text-decoration: none;
+    color: black;
+}
 #userbar-secondary>div:nth-child(1){
     /* border: 1px solid blue; */
     width: 30%;
@@ -93,6 +103,7 @@ body{
 }
 #menu-section>div>p{
     font-size: 12px;
+    cursor: pointer;
     
 }
 #gift{

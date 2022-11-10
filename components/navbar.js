@@ -16,9 +16,9 @@ const navbar=()=>{
 
         <div>
             <a href = "womens.html"><h5>WOMEN</h5></a>
-            <h5>MEN</h5>
-            <h5>KIDS</h5>
-            <h5>DESIGN+ART</h5>
+            <a href = "mens.html"><h5>MEN</h5></a>
+            <a href = "kids.html"><h5>KIDS</h5></a>
+            <a href = "Design_art.html"><h5>DESIGN&ART</h5></a>
         </div>
         <div>
             <img src="https://i.ibb.co/K5hm7v9/CRUX.png" alt="">
