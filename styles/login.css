@@ -29,13 +29,13 @@
           padding: 22px 22px 22px 22px;
           width: 100%;
           border-radius: 5px;
-          background: #282e33;
+          /* background: #282e33; */
           border-top: 3px solid #434a52;
           border-bottom: 3px solid #434a52;
         }
 
         .login form span {
-          background-color: #363b41;
+          /* background-color: #363b41; */
           border-radius: 3px 0px 0px 3px;
           border-right: 3px solid #434a52;
           color: #606468;
@@ -48,7 +48,7 @@
         }
 
         .login form input[type="email"] {
-          background-color: #3b4148;
+          /* background-color: #3b4148; */
           border-radius: 0px 3px 3px 0px;
           color: #a9a9a9;
           margin-bottom: 1em;
@@ -58,7 +58,7 @@
         }
 
         .login form input[type="password"] {
-          background-color: #3b4148;
+          /* background-color: #3b4148; */
           border-radius: 0px 3px 3px 0px;
           color: #a9a9a9;
           margin-bottom: 1em;
