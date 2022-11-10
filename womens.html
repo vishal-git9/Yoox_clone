@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="womens.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide-core.min.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#new-product', {
+      perPage: 3,
+      perMove: 1,
+      gap: "30px",
+      pagination: false,
+      classes:{
+        // arrows: 'my__arrows',
+		arrow : 'my__arrows',
+		prev  : 'my__arrows splide__arrow--prev',
+		next  : 'my__arrows splide__arrow--next',
+      },
+    }).mount();
+  });
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#featured-product', {
+      perPage: 3,
+      perMove: 1,
+      gap: "30px",
+      pagination: false,
+      classes:{
+        // arrows: 'my__arrows',
+		arrow : 'my__arrows',
+		prev  : 'my__arrows splide__arrow--prev',
+		next  : 'my__arrows splide__arrow--next',
+      }
+    }).mount();
+  });
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#recent-product', {
+      perPage: 3,
+      perMove: 1,
+      gap: "30px",
+      pagination: false,
+      classes:{
+        // arrows: 'my__arrows',
+		arrow : 'my__arrows',
+		prev  : 'my__arrows splide__arrow--prev',
+		next  : 'my__arrows splide__arrow--next',
+      }
+    }).mount();
+  });
+</script>
+</head>
+<!--  -->
+<body>
+    <!-- building the top section -->
+    <div id="top-part">
+        <div id="top-content">
+            <p>Single's day: get upto 90% off</p>
+            <p>ends 11/11</p>
+        </div>
+        <div id="image-part">
+            <img src="https://www.yoox.com/images/yoox80/banners/6824_2_XmasLaunch_WM_Main.jpg?634485886601286852#width=1380&height=637" alt="" srcset="">
+        </div>
+        <div id="bottom-part">
+            <p>Lights on!</p>
+            <p>enter to find the perfect persent</p>
+            <p>Let the show begin</p>
+        </div>
+    </div>
+
+    <!-- building the middle designer section -->
+    <div id="designer-section">
+        <div id="left-image">
+            <img src="https://www.yoox.com/images/yoox80/banners/6965_2_HL_DM_ROW.png?634485886601286852#width=430&height=600" alt="">
+        </div>
+        <div id="designer">
+            <p>DESIGNERS</p>
+            <div>
+            <a href="products.html">DOLCE AND GABBANA</a>
+            <a href="products.html">ROBERTO CAVALLI</a>
+            <a href="products.html">DSQUARED2</a>
+            <a href="products.html">MARNI</a>
+            <a href="products.html">BALENCIAGA</a>
+            <a href="products.html">CHLOE</a>
+            <a href="products.html">STELLA MCCARTNEY</a>
+            <a href="products.html">MAISON MARGIELA</a>
+            <a href="products.html">PRADA</a>
+            <a href="products.html">GUCCI</a>
+        </div>
+            <div>
+                <a href="products.html">VIEW ALL</a>
+            </div>
+        </div>
+        <div id="right-image">
+            <img src="https://www.yoox.com/images/yoox80/banners/6824_1_FocusOnJacket_W_HL.jpg?634485886601286852#width=430&height=600" alt="">
+        </div>
+    </div>
+
+    <!-- building slider -->
+      <!-- 2nd slider -->
+      <!-- splide -->
+      <div id="new-arrivals">
+        <div class="new-arrivals">
+            <p>NEW ARRIVALS</p>
+            <p>view all</p>
+        </div>
+        <!-- slide1 -->
+        <div id="new-product" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide parent">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/14/14270715XR_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>Maje</p>
+                        <div>
+                        <p>cardigan</p>
+                        <div>
+                        <span> US$ 337,00</span><span>35% OFF</span></div>
+                        <p>US $218,00</p>
+                    </div>
+                        </div>
+                    </li>
+                    <!-- 2nd slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/50/50291958CE_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Ring</p>
+                            <div>
+                            <span> US$ 337,00</span><span>35% OFF</span></div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 3rd slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/50/50291961LR_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Bracelet</p>
+                            <div>
+                            <span>
+                                US$ 189,00</span><span>35% OFF</span></div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 4th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/13/13908422SI_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>RE/DONE with LEVI'S</p>
+                        <div>
+                            <p>Denim Pants</p>
+                            <div>
+                            <span>
+                                US$ 520,00</span><span>30% OFF</span></div>
+                            <p>US $364,00</p>
+                    </li>
+                    <!-- 5th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/48/48291010FA_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>HANRO</p>
+                        <div>
+                            <p>Sleepwear</p>
+                            <div>
+                            </div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 6th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/50/50290936UM_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>VIVIENNE WESTWOOD</p>
+                        <div>
+                            <p>Earrings</p>
+                            <div></div>
+                            <p>US $149,00</p>
+                    </li>
+                    <!-- 7th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/48/48292048TA_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>BONNE MAISON</p>
+                        <div>
+                            <p>Socks and tights</p>
+                            <div></div>
+                            <p>US $30,00</p>
+                    </li>
+                    <!-- 8th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/49/49806254FP_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Blazer</p>
+                            <div>
+                            <span>
+                                US$ 871,00</span><span>49% OFF</span></div>
+                            <p>US $444,00</p>
+                    </li>
+                    <!-- 9th silde -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/17/17397991BT_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>FURLA</p>
+                        <div>
+                            <p>Loafers</p>
+                            <div></div>
+                            <p>US $418,00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+      <!-- new section -->
+      <div class="image-section">
+        <div class="item-cards">
+        <img src="https://www.yoox.com/images/yoox80/banners/6825_1_Hugo_Tris_W.jpg?634485886601286852#width=473&height=660" alt="">
+        <p>HUGO</p>
+        <p>Express yourself</p>
+    </div>
+    <div class="item-cards left-up">
+        <img src="https://www.yoox.com/images/yoox80/banners/6825_6_Montblanc_W_Tris.jpg?634485886601286852#width=473&height=660" alt="">
+        <p>MONTBLANC</p>
+        <p>it's a gifting season!</p>
+    </div>
+    <div class="item-cards">
+        <img src="https://www.yoox.com/images/yoox80/banners/6825_5_Furla_W_Tris.jpg?634485886601286852#width=473&height=660" alt="">
+        <p>FURLA</p>
+        <p>Autumn/Winter 2022 Collection</p>
+    </div>
+      </div>
+      <!-- slide -->
+      <div id="new-arrivals">
+        <div class="new-arrivals">
+            <p>ONE OF A KIND</p>
+            <p>view all</p>
+        </div>
+        <!-- slide2 -->
+        <div id="featured-product" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide parent">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/50/50288703MS_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>Maje</p>
+                        <div>
+                        <p>cardigan</p>
+                        <div>
+                        <span> US$ 337,00</span><span>35% OFF</span></div>
+                        <p>US $218,00</p>
+                    </div>
+                        </div>
+                    </li>
+                    <!-- 2nd slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/16/16157930OH_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Ring</p>
+                            <div>
+                            <span> US$ 337,00</span><span>35% OFF</span></div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 3rd slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/45/45698461RJ_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Bracelet</p>
+                            <div>
+                            <span>
+                                US$ 189,00</span><span>35% OFF</span></div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 4th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/16/16169848HN_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>RE/DONE with LEVI'S</p>
+                        <div>
+                            <p>Denim Pants</p>
+                            <div>
+                            <span>
+                                US$ 520,00</span><span>30% OFF</span></div>
+                            <p>US $364,00</p>
+                    </li>
+                    <!-- 5th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/17/17358702KX_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>HANRO</p>
+                        <div>
+                            <p>Sleepwear</p>
+                            <div>
+                            </div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 6th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/46/46864723JN_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>VIVIENNE WESTWOOD</p>
+                        <div>
+                            <p>Earrings</p>
+                            <div></div>
+                            <p>US $149,00</p>
+                    </li>
+                    <!-- 7th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/13/13859882NF_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>BONNE MAISON</p>
+                        <div>
+                            <p>Socks and tights</p>
+                            <div></div>
+                            <p>US $30,00</p>
+                    </li>
+                    <!-- 8th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/12/12876582RD_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Blazer</p>
+                            <div>
+                            <span>
+                                US$ 871,00</span><span>49% OFF</span></div>
+                            <p>US $444,00</p>
+                    </li>
+                    <!-- 9th silde -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/46/46851099LN_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>FURLA</p>
+                        <div>
+                            <p>Loafers</p>
+                            <div></div>
+                            <p>US $418,00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <!-- image section -->
+      <div id="by-yoox">
+        <img src="https://www.yoox.com/images/yoox80/banners/6833_1_8byYoox_Special_WM.png?634485886601286852#width=930&height=660" alt="">
+        <div class="by-yoox">
+            <p>8 BY YOOX</p>
+            <p>Create your look with the FW 22-23 collection</p>
+            <div>
+                <p>shop now</p>
+                <p>discover more</p>
+            </div>
+        </div>
+<!-- 2nd box -->
+<div class="cards sweater">
+    <img src="https://www.yoox.com/images/items/14/14270715XR_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+<p>Maje</p>
+<div>
+<p>cardigan</p>
+<div>
+<span> US$ 337,00</span><span>35% OFF</span></div>
+<p>US $218,00</p>
+</div>
+</div>
+      </div>
+
+      <!-- 3rd slide -->
+
+      <div id="new-arrivals">
+        <div class="new-arrivals">
+            <p>RECENTLY VIEWED</p>
+            <p>view all</p>
+        </div>
+        <!-- slide2 -->
+        <div id="recent-product" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide parent">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/16/16169285VN_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>Maje</p>
+                        <div>
+                        <p>cardigan</p>
+                        <div>
+                        <span> US$ 337,00</span><span>35% OFF</span></div>
+                        <p>US $218,00</p>
+                    </div>
+                        </div>
+                    </li>
+                    <!-- 2nd slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/14/14270715XR_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Ring</p>
+                            <div>
+                            <span> US$ 337,00</span><span>35% OFF</span></div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 3rd slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/13/13908422SI_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Bracelet</p>
+                            <div>
+                            <span>
+                                US$ 189,00</span><span>35% OFF</span></div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 4th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/13/13908422SI_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>RE/DONE with LEVI'S</p>
+                        <div>
+                            <p>Denim Pants</p>
+                            <div>
+                            <span>
+                                US$ 520,00</span><span>30% OFF</span></div>
+                            <p>US $364,00</p>
+                    </li>
+                    <!-- 5th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/16/16174090TU_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>HANRO</p>
+                        <div>
+                            <p>Sleepwear</p>
+                            <div>
+                            </div>
+                            <p>US $121,00</p>
+                    </li>
+                    <!-- 6th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/12/12956627EA_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>VIVIENNE WESTWOOD</p>
+                        <div>
+                            <p>Earrings</p>
+                            <div></div>
+                            <p>US $149,00</p>
+                    </li>
+                    <!-- 7th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/48/48292048TA_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>BONNE MAISON</p>
+                        <div>
+                            <p>Socks and tights</p>
+                            <div></div>
+                            <p>US $30,00</p>
+                    </li>
+                    <!-- 8th slide -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/49/49806254FP_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>MM6 MAISON MARGIELA</p>
+                        <div>
+                            <p>Blazer</p>
+                            <div>
+                            <span>
+                                US$ 871,00</span><span>49% OFF</span></div>
+                            <p>US $444,00</p>
+                    </li>
+                    <!-- 9th silde -->
+                    <li class="splide__slide">
+                        <div class="cards">
+                            <img src="https://www.yoox.com/images/items/17/17397991BT_14_f.jpg?impolicy=crop&width=306&height=390" alt="">
+                        <p>FURLA</p>
+                        <div>
+                            <p>Loafers</p>
+                            <div></div>
+                            <p>US $418,00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <!--section  -->
+      <div id="bottom-image">
+        <img src="https://www.yoox.com/images/yoox80/banners/6769_1_DesignArtHomedecor_WM_Bottom.png?634485886601286852#width=690&height=637" alt="">
+        <img src="https://www.yoox.com/images/yoox80/banners/6895_1_GenZ_W_Bottom.jpg?634485886601286852#width=690&height=637" alt="">
+        <div class="bottom-image">
+            <p>THERE IS NO PLACE LIKE HOME</p>
+            <p>Discover the new selection of ineterior design</p>
+                <p>shop now</p>
+        </div>
+        <div class="bottom-image2">
+            <p>smells like teen spirit</p>
+            <p>90's grunge and punk rock details </p>
+            <div>
+                <p>Explore</p>
+                <p>shop now</p>
+            </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
+</body>
+</html>
+
