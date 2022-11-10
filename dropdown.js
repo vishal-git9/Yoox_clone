@@ -5,14 +5,13 @@ navbar_div.innerHTML=navbar();
 
 
 let new_arrival=document.getElementById("newarrivals");
-
+console.log(new_arrival)
 new_arrival.addEventListener("click",dropdown1);
 
 let container=document.getElementById("container")
 
 function dropdown1(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div1=document.createElement("div");
@@ -91,8 +90,7 @@ designer.addEventListener("click",dropdown2)
 
 
 function dropdown2(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div3=document.createElement("div");
@@ -219,8 +217,7 @@ clothing.addEventListener("click",dropdown3)
 
 
 function dropdown3(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div3=document.createElement("div");
@@ -408,8 +405,7 @@ shoes.addEventListener("click",dropdown4)
 
 
 function dropdown4(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div3=document.createElement("div");
@@ -594,7 +590,7 @@ accessories.addEventListener("click",dropdown5)
 
 
 function dropdown5(){
- 
+    container.innerHTML = null
 
     let div=document.createElement("div");
 
@@ -763,7 +759,7 @@ eight.addEventListener("click",dropdown6)
 
 
 function dropdown6(){
- 
+    container.innerHTML = null
 
     let div=document.createElement("div");
 
@@ -834,8 +830,7 @@ yooxygen.addEventListener("click",dropdown7)
 
 
 function dropdown7(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div1=document.createElement("div");
@@ -904,8 +899,7 @@ let collab=document.getElementById("collab");
 collab.addEventListener("click",dropdown8)
 
 function dropdown8(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div1=document.createElement("div");
@@ -968,8 +962,7 @@ bestdeal.addEventListener("click",dropdown9);
 
 
 function dropdown9(){
- 
-
+    container.innerHTML = null
     let div=document.createElement("div");
 
     let div1=document.createElement("div");
