@@ -64,7 +64,7 @@ button{
         margin:auto;
         margin-bottom: 20px;
         /* height:600px; */
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
         /* position:fixed; */
     }
         #main>div{
@@ -74,12 +74,9 @@ button{
             height:100%
         }
         #sub{
-            /* border:1px solid red; */
             display:flex;
-            /* justify-content:end; */
             justify-content: space-evenly;
-            /* margin:auto; */
-            /* height:400px; */
+     
         }
         #sub>div{
             width:30%;
@@ -219,3 +216,4 @@ button{
     body{
         font-family: Arial, Helvetica, sans-serif;
     }
+  
