@@ -1,7 +1,12 @@
 /* body{
     /* background-color:pink; */
     /* position: relative; */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
 
+    *{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+    }
 #main{
     /* border:1px solid red; */
     display:flex;
@@ -65,80 +70,4 @@
   }
   body{
     text-align: center;
-}
-#about{
-    display:flex;
-    height:350px;
-    /* border:2px solid red; */
-    width:70%;
-    margin:auto;
-    margin-top:100px;
-    justify-content: space-between;
-
-}
-#about>div{
-    /* border:2px solid green; */
-height:90%;
-width:15%
-}
-#about :nth-child(3){
-    width:25%;
-    /* height:100px; */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-}
-#about button{
-    width:60%;
-    height:50px;
-margin:auto;
-background-color: rgb(51,51,51);
-border:none;
-color:white;
-}
-
-#input{
-    width:84%;
-    margin-left:30px;
-    /* border:1px solid red; */
-}
-/* #radio{
-    margin-left:10px;
-    font-size: larger;
-} */
-#about p{
-    text-align: center;
-
-}
-#footer1{
-    display:flex;
-    /* border:1px solid red; */
-    justify-content: space-around;
-    /* align-items: center; */
-}
-a{
-    text-decoration: none;
-    color:black
-}
-#footer{
-    background-color:rgb(51,51,51); 
-height:100px;
-display: flex;
-}
-#footer div{
-    color:white;
-
-    width:80%;
-    margin: auto;
-    margin-top:15px;
-    /* border: 1px solid red; */
-}
-#logo{
-    display: flex;
-/* border:1px solid green; */
-width:40%;
-margin:auto;
-
-}
-#logo img{
-    width:20%;
 }
