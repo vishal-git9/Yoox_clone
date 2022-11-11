@@ -1,7 +1,8 @@
 #detail{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 0px;
+    
 }
 #pimage{
     width: 60%;
@@ -11,13 +12,16 @@
 
 }
 #pdetail{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 40%;
 }
 #pdetail>div{
-border: 1px solid black;
+
 width: 90%;
 padding-left: 20px;
+}
+#buttons{
+    margin-top: 100px;
 }
 /* #pdetail>button{
     display: flex;
@@ -31,8 +35,17 @@ padding-left: 20px;
     margin-top: 3px;
     
 } */
+
+#pdbox{
+    border: 1px solid black;
+}
+
+#size{
+    display: flex;
+    justify-content: space-around;
+}
 #findsize{
-margin-top: 300%;
+margin-top: 100px;
 text-align: center;
 height: 40px;
 width: 90%;
@@ -77,3 +90,48 @@ margin-top: 3px;
     margin-top: 3px;
 
 }
+
+#pdetail>p:nth-child(2){
+
+    margin-top: -10px;
+    
+}
+
+#fpart{
+    height: 0.5px;
+    margin: auto;
+    background-color: rgb(205,205,205);
+    margin-top: 50px;
+}
+
+#sdiv{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#spart{
+    height: 0.5px;
+    margin: auto;
+    background-color: rgb(205,205,205);
+    margin-top: 50px;
+}
+
+#tdiv{
+
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content:flex-start;
+    gap: 420px;
+
+
+}
+#tdiv>div{
+    
+}
+
+
+
+
