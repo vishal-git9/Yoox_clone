@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-weight: 900;
+}
+#head{
+    
+    width: 77%;
+    margin: auto;
+    
+    
+}
+
+#head>div:nth-child(1){
+    text-align: center;
+     text-decoration: underline; 
+     text-decoration-color: #fffe94;
+     
+     margin-top: 0px;
+     padding-top: 20px;
+
+    
+   
+}
+#head>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    
+}
+#head>div:nth-child(2)>div{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 150px;
+}
+#container{
+    padding-top: 10px;
+    width: 77%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+#left-menu{
+    width: 250px;
+    position: relative;
+}
+#left-menu>button{
+    border: 0.1px solid white;
+    margin-top: 5px;
+    background-color: rgb(245,245,245);
+    padding-left: 15px;
+
+}
+#left-menu>div>p{
+    
+    
+    font-size: smaller;
+ 
+     
+ }
+#post{
+    display: grid;
+    grid-template-columns: repeat(3,210px);
+    gap: 20px;
+}
+#post>div{
+    border: 1px solid black;
+}
+#post>div>img{
+  width: 100%;
+}
+#grayline{
+    height: 5px;
+    background-color: rgb(245,245,245);
+    width: 77%;
+    margin: auto;
+    margin-top: -10px;
+}
+
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: 2s ease;
+  }
+
+#page_dec{
+  cursor: pointer;
+}
+#page_inc{
+  cursor: pointer;
+}
+
+  .tab4{
+    font-size: large;
+  }
+
+
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+    height: 10px;
+    margin-top: 5px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #sorting>p{
+    cursor: pointer;
+  }
+
+
+
+  .up>span{
+    margin-top: 35px;
+  }
+

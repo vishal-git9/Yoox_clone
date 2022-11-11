@@ -1,0 +1,73 @@
+/* body{
+    /* background-color:pink; */
+    /* position: relative; */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
+
+    *{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+    }
+#main{
+    /* border:1px solid red; */
+    display:flex;
+    width:70%;
+    background-color:white;
+    /* justify-content:end; */
+    justify-content: space-between;
+    margin:auto;
+    /* height:600px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* position:fixed; */
+}
+    #main>div{
+        width:30%;
+        /* margin:auto; */
+        /* border:1px solid green; */
+        height:100%
+    }
+    #sub{
+        /* border:1px solid red; */
+        display:flex;
+        /* justify-content:end; */
+        justify-content: space-evenly;
+        /* margin:auto; */
+        /* height:400px; */
+    }
+    #sub>div{
+        width:30%;
+        /* margin:auto; */
+        /* border:1px solid blue; */
+        height:100%
+    }
+    #imgHome{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px;
+        gap:20px;
+        width:70%;
+        margin:auto;
+        margin-top:0px;
+    }
+     #imgHome img{
+        width:100%
+    } 
+  #cat{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    width:70%;
+    margin:auto;
+  }
+  #cat>div{
+    /* border:3px solid red; */
+    margin-top:280px;
+    display:flex;
+    height:70px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51,51,51);
+  }
+  body{
+    text-align: center;
+}

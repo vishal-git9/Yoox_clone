@@ -1,14 +1,14 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');#top-part{
-    width: 100%;
+    width: 80%;
     margin: auto;
     position: relative;
 }
 body{
     background-color: #F3F3F3;
-    font-family: 'Montserrat', sans-serif;
 }
 #top-part>#top-content{
-    background-color: #f52b7d;
+    background-color: #1FE198;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     line-height: 6px;
@@ -22,19 +22,9 @@ body{
 }
 #top-part>#top-content>p:nth-child(2){
     font-family: 'Montserrat', sans-serif;
-    /* text-transform: uppercase; */
-    font-size: 13px;
-}
-#top-part>#top-content>a{
-    margin-right: 30px;
-    font-size: 13px;
     text-transform: uppercase;
-<<<<<<<< HEAD:kids.css
-    color: black;
-========
     font-size: 12px;
     text-decoration: underline;
->>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css
 }
 #top-part>#image-part{
     width: 100%;
@@ -50,16 +40,14 @@ body{
     background-color: white;
     bottom: 30px;
     left: 30px;
-    width: 550px;
+    width: 350px;
     line-height: 18px;
-    padding: 5px 10px 25px 25px;
-    
+    padding: 10px 15px;
 }
 #top-part>#bottom-part>p:nth-child(2){
     font-family: 'Montserrat', sans-serif;
-    /* text-transform: uppercase; */
-    font-size: 13px;
-    margin-top: -5px;
+    text-transform: uppercase;
+    font-size: 11px;
     opacity: 0.7;
 }
 #top-part>#bottom-part>p:nth-child(1){
@@ -67,22 +55,17 @@ body{
     font-weight: bold;
     font-size: 25px;
     text-transform: uppercase;
-    
 }
-#top-part>#bottom-part>a{
+#top-part>#bottom-part>p:nth-child(3){
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: underline;
-    margin-right: 15px;
-    color: black;
 }
 
 
 /* building the designer section */
-
-
-/* #designer-section{
+#designer-section{
     width: 80%;
     margin: auto;
     position: relative;
@@ -130,10 +113,9 @@ body{
     color: black;
     font-weight: bold;
     font-size: 14px;
-} */
+}
 
-/* Sliders  */
-/* #new-arrivals{
+#new-arrivals{
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -154,15 +136,6 @@ body{
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: underline;
-<<<<<<<< HEAD:kids.css
-} */
-
-#slider-main{
-    background-color: #f3f3f3;
-    /* height:1000px; */
-    width: 100%;
-    text-align: center;
-========
 }
 #new-product{
     flex-basis: 73%;
@@ -249,77 +222,17 @@ body{
 }
 #featured-product{
     margin-top: 60px;
->>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css
 }
 #recent-product{
     margin-top: 60px;
 }
 
-#slider-heading{
-    font-size: 28px;
-    line-height: 28px;
-    color: #000000;
-    /* opacity: 0.7; */
-    font-weight: 300; 
-    margin-bottom: 20px;  
-     
-}
-
-#sliderN{
-    width: 85%;
-    height: 300px;
-    border: 1px solid red;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#girls{
-    margin-bottom: 50px;
-    /* border: 1px solid blue; */
-}
-#boys{
-    margin-top: 100px;
-    /* border: 1px solid blue; */
-}
-
-#option-page{
-    width: 85%;
-    height: 300px;
-    border: 1px solid red;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-#option p{
-    display: inline;
-    text-decoration-line: underline;
-}
-
-#devide{
-    margin: 20px;
-}
-
-#white{
-    background-color: white;
-    width: 100%;
-    height: 650px;
+/*     align-items: center;
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
     display: flex;
-<<<<<<<< HEAD:kids.css
-    padding-top: 100px;
-    margin-bottom: 50px;
-}
-
-.white-img{
-    width: 30%;
-    height: 100%;
-    margin: auto;
-}
-.white-img>img{
-    width: 100%;
-}
-========
     height: 2em;
     justify-content: center;
     opacity: .7;
@@ -423,5 +336,51 @@ body{
     }
     .bottom-image{
         position: absolute;
+        bottom: 20px;
+        background-color: white;
+        left: 20px;
+        padding: 10px 20px;
     }
->>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css
+    .bottom-image>p:nth-child(1){
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+    }
+    .bottom-image>p:nth-child(2){
+        font-family: 'Montserrat', serif;
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .bottom-image>p:nth-child(3){
+        font-family: 'Montserrat', serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .bottom-image2{
+        position: absolute;
+        bottom: 20px;
+        background-color: white;
+        right: 20px;
+        padding: 10px 20px;
+        line-height: 15px;
+    }
+    .bottom-image2>p:nth-child(1){
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .bottom-image2>p:nth-child(2){
+        font-family: 'Montserrat', serif;
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .bottom-image2>div{
+        display: flex;
+        gap: 40px;
+    }
+    .bottom-image2>div>p{
+        font-family: 'Montserrat', serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }

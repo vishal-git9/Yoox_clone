@@ -1,0 +1,174 @@
+#main{
+  /* border:1px solid red; */
+  display:flex;
+  width:70%;
+  background-color:white;
+  /* justify-content:end; */
+  justify-content: space-between;
+  margin:auto;
+  /* height:600px; */
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  /* position:fixed; */
+}
+  #main>div{
+      width:30%;
+      /* margin:auto; */
+      /* border:1px solid green; */
+      height:100%
+  }
+  #sub{
+      /* border:1px solid red; */
+      display:flex;
+      /* justify-content:end; */
+      justify-content: space-evenly;
+      /* margin:auto; */
+      /* height:400px; */
+  }
+  #sub>div{
+      width:30%;
+      /* margin:auto; */
+      /* border:1px solid blue; */
+      height:100%
+  }
+  #info1{
+    display:flex;
+    /* border:2px solid red; */
+    width:70%;
+    margin:auto;
+    justify-content: space-between;
+    margin-top:50px;
+    color:black;
+}
+#info1 button{
+  height:50px;
+  width:300px;
+  background-color: rgb(51,51,51);
+  color:white;
+  /* font-weight: 1000px; */
+  margin-top:-10px;
+}
+#info1 a{
+  color:rgb(51,51,51);;
+}
+#shoppingBag{
+width:30%;
+margin:auto;
+text-align: center;
+}
+#navbar{
+  border:1px solid red;
+}
+#product{
+  /* border:1px solid red; */
+  width:70%;
+  margin:auto;
+}
+#appendshopping{
+  display:flex;
+  margin:auto;
+  border-top:3px solid black;
+  border-bottom:3px solid black;
+  text-align: center;
+}
+#appendshopping>div{
+  width:18%;
+  margin:auto;
+  /* border:1px solid blue; */
+}
+#img{
+  display: flex;
+}
+
+.discount{
+
+}
+#info2{
+  width:70%;
+  margin:auto;
+}
+
+#ecobox-1{
+  width:70%;
+  margin:auto;
+
+  border-bottom: 3px solid black;
+}
+#ecobox{
+  width:40%;
+  border:1px solid greenyellow;
+  margin-bottom:20px;
+}
+#total_price{
+  display: flex;
+  /* border:1px solid red; */
+  width:70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#total_price{
+  display: flex;
+  /* border:1px solid red; */
+  width:70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#Local_Taxes_and_Duties{
+  display: flex;
+  /* border:1px solid red; */
+  width:70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#SHIPPING{
+  display: flex;
+  /* border:1px solid red; */
+  width:70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#PAYMENT{
+  display: flex;
+  border-bottom:2px solid grey;
+  width:70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#ORDER_TOTAL{
+  display: flex;
+  border-bottom:3px solid black;
+  width:70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#text-area{
+  border:1px solid black;
+  width:70%;
+  margin-left:230px;
+  margin-top: 0px;
+}
+#summary{
+  /* border:1px solid black; */
+  width:70%;
+  /* margin-left:230px; */
+  margin:auto;
+}
+#customerCare{
+  width:70%;
+  margin:auto;
+}
+#rEnd{
+  height:150px;
+  background-color: rgb(51,51,51);
+  text-align: center;
+  color:white;
+  padding-top:60px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
