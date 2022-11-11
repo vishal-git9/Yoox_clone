@@ -23,7 +23,9 @@
 
 
 }
-
+.div1>p{
+    cursor: pointer;
+}
 #div2{
     width:80%;
     height: 100%;

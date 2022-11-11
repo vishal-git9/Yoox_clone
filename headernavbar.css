@@ -58,9 +58,10 @@ body{
     height: 70px;
     
 }
-#userbar-secondary>div>a{
+#userbar-secondary>div>h5{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 #userbar-secondary>div:nth-child(1){
     /* border: 1px solid blue; */

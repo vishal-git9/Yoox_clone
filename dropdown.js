@@ -1,5 +1,8 @@
 import { navbar } from "./components/navbar.js"; 
+import { footer } from "./components/footer.js";
 
+let footer_part = document.getElementById("footer_part")
+footer_part.innerHTML  = footer()
 let navbar_div=document.getElementById("navbar");
 navbar_div.innerHTML=navbar();
 
@@ -22,7 +25,9 @@ function dropdown1(){
 
     let p1=document.createElement("p");
     p1.innerText="CLOTHING"
-
+    p1.onclick = ()=>{
+        window.location.href = "product.html"
+    }
     let p2=document.createElement("p");
     p2.innerText="SHOES"
 
