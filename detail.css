@@ -2,6 +2,9 @@
     display: flex;
     /* border: 1px solid red; */
     margin-top: 0px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
     
 }
 #pimage{
@@ -90,9 +93,16 @@ margin-top: 3px;
     margin-top: 3px;
 
 }
-
+#pdetail>h3{
+    font-size: 25px;
+}
 #pdetail>p:nth-child(2){
-
+    font-size: 18px;
+    margin-top: -10px;
+    
+}
+#pdetail>h4{
+    font-size: 16px;
     margin-top: -10px;
     
 }

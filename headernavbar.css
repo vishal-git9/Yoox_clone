@@ -48,8 +48,18 @@ body{
     margin-top: 10px;
     /* background-color: aqua; */
     align-items: center;
-
-
+    position: relative;
+}
+#cart_item{
+    position: absolute;
+    top: 18px;
+    color: white;
+    right: -10px;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
 }
 #userbar-secondary>div{
     display: flex;

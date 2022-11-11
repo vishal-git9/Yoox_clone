@@ -138,25 +138,7 @@ const sortby_content = async (val)=>{
   append(final)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function products_details(id){
   localStorage.setItem("product-id",id)
-  window.location.href = "products_details.html"
+  window.location.href = "detail.html"
 }

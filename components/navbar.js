@@ -27,10 +27,10 @@ const navbar=()=>{
             <span class="material-symbols-outlined">
                 favorite
             </span>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" id="shopping-bag">
                 shopping_bag
             </span>
-
+            <span id="cart_item">0</span>
         </div>
 
     </div>
