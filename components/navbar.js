@@ -18,7 +18,7 @@ const navbar=()=>{
             <h5>WOMENS</h5><h5>MENS</h5><h5>KIDS</h5><h5>DESIGN&ART</h5>
         </div>
         <div>
-            <img src="https://i.ibb.co/K5hm7v9/CRUX.png" alt="">
+            <img src="https://i.ibb.co/Gc7P5LS/CRUX-removebg-preview.png" alt="">
         </div>
         <div>
             <span class="material-symbols-outlined">
