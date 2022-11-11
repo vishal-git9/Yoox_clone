@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="kids.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide-core.min.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#new-product', {
+      perPage: 3,
+      perMove: 1,
+      gap: "30px",
+      pagination: false,
+      classes:{
+        // arrows: 'my__arrows',
+		arrow : 'my__arrows',
+		prev  : 'my__arrows splide__arrow--prev',
+		next  : 'my__arrows splide__arrow--next',
+      },
+    }).mount();
+  });
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#featured-product', {
+      perPage: 3,
+      perMove: 1,
+      gap: "30px",
+      pagination: false,
+    }).mount();
+  });
+</script>
+</head>
+
+<body>
+    <!-- TOP -->
+    <div id="top-part">
+        <div id="top-content">
+            <p>NEW REDUCTIONS: UP TO 65% OFF</p>
+            <p>Tons of newly marked down items</p>
+            <a href="https://www.yoox.com/us/girl/sale/kids/shoponline?dept=salegirl_kid&attributes={%27smrtfnd%27:[%27smjstdscnt%27]}">Shop Girls</a>
+            <a href="https://www.yoox.com/us/boy/sale/kids/shoponline?dept=saleboy_kid&attributes={%27smrtfnd%27:[%27smjstdscnt%27]}">Shop Boys</a>
+        </div>
+        <div id="image-part">
+            <img src="https://www.yoox.com/images/yoox80/banners/6821_2_Christmas_Main_K.jpg?634485886869569819&impolicy=cropDefault&width=960&height=510" alt="" srcset="">
+        </div>
+        <div id="bottom-part">
+            <p>THE GRAND & MARVELOUR HOLIDAY FAIR</p>
+            <p>Fun finds for the little ones</p>
+            <a href="https://www.yoox.com/us/girl/sale/kids/shoponline?dept=salegirl_kid&attributes={%27smrtfnd%27:[%27smjstdscnt%27]}">Shop Girls</a>
+            <a href="https://www.yoox.com/us/boy/sale/kids/shoponline?dept=saleboy_kid&attributes={%27smrtfnd%27:[%27smjstdscnt%27]}">Shop Boys</a>
+        
+        </div>
+    </div>
+
+   
+
+    <!-- building slider -->
+      <div id="slider-main">
+        <div id="girls">
+            <h6 id="slider-heading">NEW ARRIVALS GIRLS</h6>
+            <a href="">VIEW ALL</a>
+
+            <div id="sliderN"></div>
+        </div>
+        <div id="boys">
+                <h6 id="slider-heading">NEW ARRIVALS BOYS</h6>
+                <a href="">VIEW ALL</a>
+    
+                <div id="sliderN"></div>
+        </div>
+        <div id="designer">
+            <h6 id="slider-heading">DESIGNERS</h6>
+            <div id="option">
+                <p>GIRLS</p>
+                <p id="devide">|</p>
+                <p>BOYS</p>
+            </div>
+          
+            <div id="option-page"></div>
+        </div>
+         
+      </div>
+      
+      <div id="white">
+        <div class="white-img">
+            <img src="https://www.yoox.com/images/yoox80/banners/6821_1_TOYS_Tris_K.jpg?634485886869569819#width=473&height=660" alt="">
+        </div>
+        <div class="white-img">
+            <img src="https://www.yoox.com/images/yoox80/banners/6821_1_Newborn_Tris_K.png?634485886869569819#width=387&height=540" alt="">
+        </div>
+        <div class="white-img">
+            <img src="https://www.yoox.com/images/yoox80/banners/6821_7_StellaMcKids_Tris_K.jpg?634485886869569819#width=387&height=540" alt=""> -->
+
+        </div>
+       </div>
+    
+       <div id="top-part">
+        <div id="image-part">
+            <img src="https://www.yoox.com/images/yoox80/banners/6821_1_Cozy_Bottom_K.jpg?634485886869569819&impolicy=cropDefault&width=960&height=510" alt="" srcset="">
+        </div>
+        <div id="bottom-part">
+            <p>BUISNESS OF JOY</p>
+            <p>All wrepped up ready for everything</p>
+            <a href="https://www.yoox.com/us/girl/sale/kids/shoponline?dept=salegirl_kid&attributes={%27smrtfnd%27:[%27smjstdscnt%27]}">Shop Girls</a>
+            <a href="https://www.yoox.com/us/boy/sale/kids/shoponline?dept=saleboy_kid&attributes={%27smrtfnd%27:[%27smjstdscnt%27]}">Shop Boys</a>
+        
+        </div>
+    </div>
+</body>
+</html>

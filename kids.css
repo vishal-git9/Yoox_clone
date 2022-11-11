@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');#top-part{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+body{
+    background-color: #F3F3F3;
+    font-family: 'Montserrat', sans-serif;
+}
+#top-part>#top-content{
+    background-color: #f52b7d;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 6px;
+    padding: 10px;
+}
+#top-part>#top-content>p:nth-child(1){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#top-part>#top-content>p:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 13px;
+}
+#top-part>#top-content>a{
+    margin-right: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: black;
+}
+#top-part>#image-part{
+    width: 100%;
+}
+
+
+#top-part>#image-part>img{
+    width: 100%;
+}
+
+#top-part>#bottom-part{
+    position: absolute;
+    background-color: white;
+    bottom: 30px;
+    left: 30px;
+    width: 550px;
+    line-height: 18px;
+    padding: 5px 10px 25px 25px;
+    
+}
+#top-part>#bottom-part>p:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 13px;
+    margin-top: -5px;
+    opacity: 0.7;
+}
+#top-part>#bottom-part>p:nth-child(1){
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+#top-part>#bottom-part>a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-right: 15px;
+    color: black;
+}
+
+
+/* building the designer section */
+
+
+/* #designer-section{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+#designer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    justify-content: space-around;
+    z-index: 100;
+    top: -50px;
+    left: 370px;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+}
+#designer>p{
+    opacity: 0.3;
+    font-family: 'Montserrat', sans-serif;
+}
+#designer>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#designer>div:nth-child(2)>a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+#designer>div:nth-child(3)>a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+} */
+
+/* Sliders  */
+/* #new-arrivals{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+.new-arrivals{
+    flex-basis: 25%;
+    font-family: 'Montserrat', sans-serif;
+}
+.new-arrivals>p:nth-child(1){
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.new-arrivals>p:nth-child(2){
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+} */
+
+#slider-main{
+    background-color: #f3f3f3;
+    /* height:1000px; */
+    width: 100%;
+    text-align: center;
+}
+
+#slider-heading{
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    /* opacity: 0.7; */
+    font-weight: 300; 
+    margin-bottom: 20px;  
+     
+}
+
+#sliderN{
+    width: 85%;
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#girls{
+    margin-bottom: 50px;
+    /* border: 1px solid blue; */
+}
+#boys{
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+}
+
+#option-page{
+    width: 85%;
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#option p{
+    display: inline;
+    text-decoration-line: underline;
+}
+
+#devide{
+    margin: 20px;
+}
+
+#white{
+    background-color: white;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.white-img{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+.white-img>img{
+    width: 100%;
+}
