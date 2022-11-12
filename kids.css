@@ -4,8 +4,11 @@
     position: relative;
 }
 body{
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     font-family: 'Montserrat', sans-serif;
+}
+#top-part{
+    background-color: #f3f3f3;
 }
 #top-part>#top-content{
     background-color: #f52b7d;
@@ -77,6 +80,7 @@ body{
     margin-right: 15px;
     color: black;
 }
+
 
 
 /* building the designer section */
