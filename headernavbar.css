@@ -4,7 +4,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
 }
-
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } */
 body{
     margin: 0px;
     padding: 0px;
@@ -12,11 +16,15 @@ body{
    
 }
 #navbar{
-    height: 150px;
-  
-  
-    
-
+    /* width: 100%; */
+    /* overflow: hidden; */
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 2500;
 }
 #user-bar {
     display: flex;
@@ -50,7 +58,10 @@ body{
     align-items: center;
     position: relative;
 }
-#cart_item{
+#shopping-bag{
+    cursor: pointer;
+}
+#item_count{
     position: absolute;
     top: 18px;
     color: white;
