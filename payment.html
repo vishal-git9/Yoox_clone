@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+</head>
+<body>
+   
+    <div id="user-bar">
+        <div class="userbar-left">
+            <h5>INDIA</h5>
+            <h5>CUSTOMER CARE</h5>
+        </div>
+        <div class="userbar-right">
+            <h5> REGISTER</h5>
+            <h5>LOGIN</h5>
+
+        </div>
+
+    </div>
+    <div id="userbar-secondary">
+
+        <div>
+            <h5>WOMEN</h5>
+            <h5>MEN</h5>
+            <h5>KIDS</h5>
+            <h5>DESIGN+ART</h5>
+        </div>
+        <div>
+            <img src="https://i.ibb.co/K5hm7v9/CRUX.png" alt="">
+        </div>
+        <div>
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <span class="material-symbols-outlined">
+                favorite
+            </span>
+            <span class="material-symbols-outlined">
+                shopping_bag
+            </span>
+
+        </div>
+
+    </div>
+    <div id="menu-section">
+        <div>
+            <p id="newarrivals">NEW ARRIVALS</p>
+            <p id="designers">DESIGNERS</p>
+            <p id="clothing">CLOTHING</p>
+            <p id="shoes">SHOES</p>
+            <p id="accessories">ACCESSORIES</p>
+            <p>8 BY YOOX</p>
+            <p id="yooxygen">YOOXYGEN</p>
+            <p id="collab">COLLABORATIONS</p>
+            <p id="bestdeal">BEST DEALS</p>
+            <p id="gift">GIFT GUIDE</p>
+
+        </div>
+       
+       
+
+    </div>
+    <div id="main"> 
+        <div id="cardImg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IpKa6e8PaKfRriEqpJvTzYdxHUpV5GGZ2w&usqp=CAU" alt="error">
+        </div>
+        <div id="payment">
+            <h1>PAYMENT DETAILS</h1>
+            <input type="number" id="cardno" placeholder="CARD NUMBER"><br><br>
+            <input type="text"  id="name" placeholder="CARDHOLDER NAME"><br><br>
+            <div id="cvv">
+                <input type="month" id="month" placeholder="MONTH">
+                <input type="number" id="year" placeholder="YEAR">
+                <input type="password" id="cvvv" placeholder="CVV">
+            </div>
+            <div id="buttons">
+                <button id="b1" onclick="check()">Confirm And Pay The Money</button>
+                <button id="b2">CANCEL</button>
+        
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="./script/payment.js"></script>
