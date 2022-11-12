@@ -51,28 +51,33 @@ get_item.forEach(el=>{
 const products = async ()=>{
   let res  = await fetch(`https://unofficial-shein.p.rapidapi.com/products/list?cat_id=${send_item}&adp=10170797&language=en&country=US&currency=USD&sort=7&limit=20&page=${page_count}`,{
       headers: {
-  'X-RapidAPI-Key': '204a42f1f1msh3c2dccde72362b2p16ec65jsndbd11d5ee971',
+  'X-RapidAPI-Key': '9ea0e4551dmsh82920695f810e5ap12a458jsn13f417a97d49',
   'X-RapidAPI-Host': 'unofficial-shein.p.rapidapi.com'
 }
   })
   let data = await res.json()
   let final  = data.info.products
-  console.log(final)
+  console.log(data)
   append(final)
 }
 products()
 
 const append = (data)=>{
+  console.log(data)
   let container = document.getElementById("post")
   container.innerHTML = null
   data.forEach(el => {
       let div  = document.createElement("div")
       let img = document.createElement("img")
       img.onclick = ()=>{
-          products_details(el.badge.goods_id)
+          products_details(el.goods_id)
       }
       img.src = el.goods_img
-      div.append(img)
+      let name = document.createElement("p")
+      name.innerText = el.goods_name
+      let price = document.createElement("p")
+      price.innerText = el.salePrice.amountWithSymbol
+      div.append(img,name,price)
       container.append(div)
 
   });
@@ -128,7 +133,7 @@ const sortby_content = async (val)=>{
   console.log(send_item)
   let res  = await fetch(`https://unofficial-shein.p.rapidapi.com/products/list?cat_id=${send_item}&adp=10170797&language=en&country=US&currency=USD&sort=${val}&limit=20&page=${page_count}`,{
       headers: {
-  'X-RapidAPI-Key': '204a42f1f1msh3c2dccde72362b2p16ec65jsndbd11d5ee971',
+  'X-RapidAPI-Key': '9ea0e4551dmsh82920695f810e5ap12a458jsn13f417a97d49',
   'X-RapidAPI-Host': 'unofficial-shein.p.rapidapi.com'
 }
   })

@@ -39,6 +39,35 @@
     margin-top:50px;
     color:black;
 }
+#remove_product{
+  font-size: 14px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 3px;
+}
+#remove_product:hover{
+  background-color: rgb(230, 230, 230);
+}
+#increment{
+  display: flex;
+  gap: 15px;
+}
+#increment>i{
+  font-size: 15px;
+  cursor: pointer;
+  padding: 3px;
+}
+#increment>i:hover{
+  background-color: rgb(230, 230, 230);
+}
+#remove_product>i{
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 3px;
+}
 #info1 button{
   height:50px;
   width:300px;
@@ -55,9 +84,6 @@ width:30%;
 margin:auto;
 text-align: center;
 }
-#navbar{
-  border:1px solid red;
-}
 #product{
   /* border:1px solid red; */
   width:70%;
@@ -65,18 +91,29 @@ text-align: center;
 }
 #appendshopping{
   display:flex;
+  flex-direction: column;
   margin:auto;
+  margin-top: 20px;
   border-top:3px solid black;
   border-bottom:3px solid black;
   text-align: center;
+  gap: 20px;
 }
 #appendshopping>div{
-  width:18%;
+  width:100%;
   margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* border:1px solid blue; */
 }
 #img{
   display: flex;
+}
+#img>div>img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .discount{

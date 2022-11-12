@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@300;500&family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&family=Roboto&family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    position: relative;
+}
+#modal{
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    right: 200px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    z-index: 3200;
+    background-color: white;
+}
+#modal>div{
+    width: 80%;
+}
+/* .show{
+    display: flex;
+} */
+#total,#item_count{
+    font-weight: bold;
+}
+#modal>div>button{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#modal>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#modal>div:nth-child(3)>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+#modal>div:nth-child(3)>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+#modal>div:nth-child(3)>div>p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+}
+#modal>div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}

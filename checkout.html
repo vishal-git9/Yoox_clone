@@ -5,26 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="headernavbar.css">
     <link rel="stylesheet" href="./styles/checkout.css">
 </head>
 <body>
-    <div id="main">
-        <div id="sub">
-            <div>INDIA</div>
-            <div>  <a href="https://www.yoox.com/us/customercare"> Cutomer care</a>
-               </div>
-        </div>
-        <div id="sub">
-            <div id="register"> 
-                <a href="register.html">  MYOOX</a>
-              </div>
-            <div id="login">
-                <a href="login.html">LOGOUT</a>
-                </div>
-        </div>
-    </div>
     <div id="navbar">
-        <h3>sdfdf</h3>
+
     </div>
 
     <div id="shoppingBag">
@@ -32,7 +20,7 @@
     </div>
     <div id="info1">
         <div>
-            <a href="">BACK TO SHOPPING</a>
+            <a href="womens.html">BACK TO SHOPPING</a>
         </div>
         <div>
             <button id="proccedBuy">PROCEED WITH YOUR ORDER</button>
@@ -40,9 +28,9 @@
     </div>
 
     <div id="product">
-        <h3>1  | ITEMS ADDED TO YOUR SHOPPING BAG (1)</h3>
+        <h3 id="item_num" style="display: inline;">1</h3><span> ITEMS ADDED TO YOUR SHOPPING BAG</span>
 <div id="appendshopping">
-    <div id="img">
+    <!-- <div id="img">
         <div>
             <img src="https://www.yoox.com/images/items/12/12956627ea_14_f.jpg?width=63&height=80&impolicy=crop&gravity=Center" alt="">
         </div>
@@ -66,7 +54,7 @@
     <span id="delete">  <del>US$329</del>   </span>
   70%off</p>
 <p>$140</p>
-    </div>
+    </div> -->
 </div>
     </div>
    
@@ -85,24 +73,24 @@
         </div>
     <div id="total_price">
         <h3>TOTAL FOR ITEMS</h3>
-        <h3>US$194</h3>
+        <h3 id="total_sum">US$194</h3>
     </div>
     <div id="Local_Taxes_and_Duties">
         <h3>Local Taxes and Duties
         </h3>
-        <h3>US$194</h3>
+        <h3 id="total_taxes">US$194</h3>
     </div>
     <div id="SHIPPING">
         <h3>SHIPPING</h3>
-        <h3>Free</h3>
+        <h3 id="shipping_cost">US$26</h3>
     </div>
     <div id="PAYMENT">
         <h3>PAYMENT</h3>
-        <h3>US$194</h3>
+        <h3>Free</h3>
     </div>
     <div id="ORDER_TOTAL">
         <h3>ORDER TOTAL </h3>
-        <h3>US$194</h3>
+        <h3 id="total_val">US$194</h3>
     </div>
     <div id="summary">
 <h4>SUMMARY OF THE MAIN TERMS AND CONDITIONS OF SALE</h4>
@@ -126,3 +114,4 @@
             </div>
 </body>
 </html>
+<script src="checkout.js" type="module"></script>

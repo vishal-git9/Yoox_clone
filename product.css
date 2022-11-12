@@ -68,6 +68,10 @@ body{
 }
 #post>div{
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 #post>div>img{
   width: 100%;
