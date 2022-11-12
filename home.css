@@ -71,3 +71,32 @@
   body{
     text-align: center;
 }
+#additionalGrid{
+    /* border:1px solid green; */
+    display:flex;
+    margin:auto;
+    margin-bottom: -130px;
+    width:70%;
+    justify-content: space-between;
+            }
+            #additionalGrid>div{
+                width: 40%;
+            }
+            #ag1{
+                /* border:2px solid red; */
+                display: flex;
+                justify-content: space-around;
+            }
+            #ag1>div{
+                width:40%;
+                margin:auto;
+            }
+            #ag2{
+                /* border:2px solid red; */
+                display: flex;
+                justify-content: space-around;
+            }
+            #ag2>div{
+                width:40%;
+                margin:auto;
+            }
