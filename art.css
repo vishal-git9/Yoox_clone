@@ -5,7 +5,7 @@
     position: relative;
 }
 body{
-    background-color: #F3F3F3;
+    background-color: #ffffff;
 }
 
 div{
@@ -78,16 +78,18 @@ div{
     line-height: 18px;
 }
 
-
-#heading-2{
+#mid-heading{
     width: 70%;
     margin: auto;
+    height: 320px;
     text-align: center;
-    font-size: 25px;
-    padding: -15px;
-    font-weight: 700;
-    line-height: 55px;
-    margin-bottom: 50px;
+}
+
+#mid-heading>h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+    /* text-transform: uppercase; */
 }
 
 #images{
@@ -156,14 +158,40 @@ div{
 
 #gradient{
     width: 70%;
-    height: 250px;
-    background-image: linear-gradient(to right, #85201b,#443961);
+    height: auto;
     margin: auto;
-    text-align: center;
-    vertical-align: middle;
     color: white;
-
 }
-#gradient>a{
+
+#gradient>img{
+    width: 100%;
+}
+
+#gradient-text{
+    position: absolute;
+    bottom: 650px;
+    left: 480px;
+    /* background-color: white; */
+    width: 400px;
+    height: 100px;
+    line-height: 18px;
+    text-align: center
+    /* padding: 10px 10px; */
+}
+
+#gradient-text>h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#gradient-text>p{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+#gradient-text>a{
     color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration-line: underline;
 }
