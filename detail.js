@@ -4,7 +4,24 @@ let navbar_div=document.getElementById("navbar");
 navbar_div.innerHTML=navbar();
 let get_modal = document.getElementById("modal")
 get_modal.innerHTML = cart()
-
+// for navigation
+let get_women_page = document.getElementById("womens_page")
+get_women_page.onclick = ()=>{
+    window.location.href = "womens.html"
+}
+let get_men_page = document.getElementById("mens_page")
+get_men_page.onclick = ()=>{
+    window.location.href = "mens.html"
+}
+let get_kids_page = document.getElementById("kids_page")
+get_kids_page.onclick = ()=>{
+    window.location.href = "kids.html"
+}
+let get_design_page = document.getElementById("design_page")
+get_design_page.onclick = ()=>{
+    window.location.href = "art.html"
+}
+// 
 let val = localStorage.getItem("product-id")
 console.log(val)
 const get_details = async ()=>{
@@ -37,8 +54,6 @@ const image_details = (data)=>{
         get_image3.src = data[2].origin_image
         let get_image4 = document.querySelector("#image-four")
         get_image4.src = data[3].origin_image
-        let get_image5 = document.querySelector("#image-five")
-        get_image5.src = data[4].origin_image
         // product_images
 }
 

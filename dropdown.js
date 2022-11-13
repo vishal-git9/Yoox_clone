@@ -1,10 +1,60 @@
 import { navbar } from "./components/navbar.js"; 
 import { footer } from "./components/footer.js";
-
+import {cart} from "./components/cart.js"
 let footer_part = document.getElementById("footer_part")
 footer_part.innerHTML  = footer()
 let navbar_div=document.getElementById("navbar");
 navbar_div.innerHTML=navbar();
+let get_modal = document.getElementById("modal")
+get_modal.innerHTML = cart()
+// for opening cart
+let get_bag = document.getElementById("shopping-bag")
+get_bag.onclick = ()=>{
+    let get_modal = document.getElementById("modal")
+    get_modal.style.display = "flex"
+}
+let get_checkout_btn = document.getElementById("checkout_page")
+document.onclick = function(event) {
+    let get_modal = document.getElementById("modal")
+    if (event.target != get_bag && event.target != get_modal && event.target != get_checkout_btn ) {
+        get_modal.style.display = "none";
+    }
+}
+
+// for showing data on modal
+let product_data =JSON.parse(localStorage.getItem("cart_product"))
+
+const cart_data = (data)=>{
+    let count = 0
+    let item_total = 0
+    data.forEach(el => {
+        count++
+        item_total += Number(el.sale_price.amount)
+    });
+
+    let get_cart_sum = document.getElementById("total_cart")
+    get_cart_sum.innerText = `US$ ${item_total}`;
+    let get_cart_count = document.getElementById("count_cart")
+    get_cart_count.innerText = count;
+    // for image
+    let get_cart_image = document.getElementById("cart_product_image")
+    get_cart_image.src = data[0].goods_img
+    // for cloth
+    let get_cloth_name = document.getElementById("cloth_name")
+    get_cloth_name.innerText = data[0].goods_name
+    // for cloth price
+    let get_cloth_price = document.getElementById("item_price")
+    get_cloth_price.innerText = data[0].sale_price.amountWithSymbol
+}
+cart_data(product_data)
+// 
+
+// taking to the checkout page
+
+get_checkout_btn.onclick = ()=>{
+    window.location.href = "checkout.html"
+}
+// 
 // for navigating pages
 // for mens pages
 let get_women_page = document.getElementById("womens_page")
@@ -26,7 +76,16 @@ get_design_page.onclick = ()=>{
 
 
 
-
+let data = JSON.parse(localStorage.getItem("cart_product")) || []
+    function get_count(){
+    let count = 0
+    data.forEach(el => {
+        count++
+    });
+    let get_count2 = document.getElementById("item_count")
+    get_count2.innerText = count
+}
+get_count()
 
 
 

@@ -6,6 +6,17 @@ let get_sum = document.getElementById("dynamic")
     let sum = localStorage.getItem("total_amount")
     get_sum.innerText = sum
     let button_first = document.getElementById("b1")
+    // for showing the real data
+    let data = JSON.parse(localStorage.getItem("cart_product"))
+    function get_count(){
+    let count = 0
+    data.forEach(el => {
+        count++
+    });
+    let get_count2 = document.getElementById("item_count")
+    get_count2.innerText = count
+}
+get_count()
     button_first.onclick = ()=>{
         check()
     }
@@ -24,7 +35,13 @@ function check(){
             text: "Hurrah!",
             icon: "success",
             button: "Okay!",
+            timer: 2000,
           });
+          localStorage.removeItem("cart_product")
+          get_count()
+          setTimeout(() => {
+            window.location.href = "womens.html"
+          }, 3000);
     }
     else{
         swal({
