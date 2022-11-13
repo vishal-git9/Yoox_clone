@@ -23,30 +23,33 @@ document.onclick = function(event) {
 
 // for showing data on modal
 let product_data =JSON.parse(localStorage.getItem("cart_product"))
-
-const cart_data = (data)=>{
-    let count = 0
-    let item_total = 0
-    data.forEach(el => {
-        count++
-        item_total += Number(el.sale_price.amount)
-    });
-
-    let get_cart_sum = document.getElementById("total_cart")
-    get_cart_sum.innerText = `US$ ${item_total}`;
-    let get_cart_count = document.getElementById("count_cart")
-    get_cart_count.innerText = count;
-    // for image
-    let get_cart_image = document.getElementById("cart_product_image")
-    get_cart_image.src = data[0].goods_img
-    // for cloth
-    let get_cloth_name = document.getElementById("cloth_name")
-    get_cloth_name.innerText = data[0].goods_name
-    // for cloth price
-    let get_cloth_price = document.getElementById("item_price")
-    get_cloth_price.innerText = data[0].sale_price.amountWithSymbol
+if(product_data!=null){
+    const cart_data = (data)=>{
+        let count = 0
+        let item_total = 0
+        data.forEach(el => {
+            count++
+            item_total += Number(el.sale_price.amount)
+        });
+    
+        let get_cart_sum = document.getElementById("total_cart")
+        get_cart_sum.innerText = `US$ ${item_total}`;
+        let get_cart_count = document.getElementById("count_cart")
+        get_cart_count.innerText = count;
+        // for image
+        let get_cart_image = document.getElementById("cart_product_image")
+        get_cart_image.src = data[0].goods_img
+        // for cloth
+        let get_cloth_name = document.getElementById("cloth_name")
+        get_cloth_name.innerText = data[0].goods_name
+        // for cloth price
+        let get_cloth_price = document.getElementById("item_price")
+        get_cloth_price.innerText = data[0].sale_price.amountWithSymbol
+    }
+    cart_data(product_data)
+}else{
+    console.log("no item")
 }
-cart_data(product_data)
 // 
 
 // taking to the checkout page
