@@ -44,7 +44,7 @@ get_item.forEach(el=>{
     }else if(val=="KIDS"){
       window.location.href = "kids.html"
     }else if(val=="DESIGN&ART"){
-      window.location.href = "design.html"
+     console.log("hi")
     }
   }
 })

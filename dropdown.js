@@ -21,7 +21,7 @@ get_kids_page.onclick = ()=>{
 }
 let get_design_page = document.getElementById("design_page")
 get_design_page.onclick = ()=>{
-    window.location.href = "design.html"
+    window.location.href = "art.html"
 }
 
 
