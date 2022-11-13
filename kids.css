@@ -4,8 +4,11 @@
     position: relative;
 }
 body{
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     font-family: 'Montserrat', sans-serif;
+}
+#top-part{
+    background-color: #f3f3f3;
 }
 #top-part>#top-content{
     background-color: #f52b7d;
@@ -32,6 +35,12 @@ body{
     color: black;
     font-size: 12px;
     text-decoration: underline;
+/* <<<<<<<< HEAD:kids.css */
+    color: black;
+/* ======== */
+    font-size: 12px;
+    text-decoration: underline;
+/* >>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css */
 }
 #top-part>#image-part{
     width: 100%;
@@ -74,6 +83,7 @@ body{
     margin-right: 15px;
     color: black;
 }
+
 
 
 /* building the designer section */
@@ -136,7 +146,6 @@ body{
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: underline;
-<<<<<<<< HEAD:kids.css
 } */
 #designer{
     width: 80%;
@@ -233,6 +242,9 @@ body{
 }
 #featured-product{
     margin-top: 60px;
+
+/* >>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css */
+
 }
 #recent-product{
     margin-top: 60px;
