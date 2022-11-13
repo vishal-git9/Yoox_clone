@@ -27,17 +27,16 @@ function footer(){
         <p>YOOX NEWS</p>
         <p>Sign up for the newsletter
 and discover the latest arrivals and promotions</p>
-        <p></p>
-        <input id="input" type="text" placeholder="ENTER YOUR EMAIL ADDRESS"><br><br>
-            <input id = "radio" type="radio" value="Women"> 
+        <input id="input" type="text" placeholder="ENTER YOUR EMAIL ADDRESS">
+        <div>
+            <input id = "radio" type="radio" value="Women" name="person"> 
              <label for="Women">Women</label>
-          
-            <input id = "radio" type="radio" value="Men">
-            <label for="Woen">Men</label><br>
-           
+            <input id = "radio" type="radio" value="Men" name="person">
+            <label for="Woen">Men</label>
+            </div>
+           <div>
     <input type="checkbox">
-    <label for=""> I consent to receive YOOX newsletters via email. For further information, please consult the Privacy Policy.</label><br>
-        <!-- <p></p> -->
+    <label for=""> I consent to receive YOOX newsletters via email. For further information, please consult the Privacy Policy.</label><br></div>
         <button>Sign UP</button>
     </div>
     <div>

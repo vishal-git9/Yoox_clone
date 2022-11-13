@@ -3,7 +3,6 @@ let get_nav = document.getElementById("navbar")
 get_nav.innerHTML = navbar()
 
 let data =JSON.parse(localStorage.getItem("cart_product"))
-
 const append_cart_data = (data)=>{
     let count = 0
     let stable  = 0
@@ -11,6 +10,7 @@ const append_cart_data = (data)=>{
     let get_count = document.getElementById("item_num")
     let get_count2 = document.getElementById("item_count")
     let get_div = document.getElementById("appendshopping")
+    console.log(get_div)
     get_div.innerHTML = null
     data.forEach((el,index) => {
         count++
@@ -67,10 +67,6 @@ const append_cart_data = (data)=>{
     //
     checkout_price(price_obj)
     // proceed buttons
-    let proceed_btn = document.getElementById("proccedBuy")
-    proceed_btn.onclick = ()=>{
-        payment_page(total_sum)
-    }
 }
 
 append_cart_data(data)
@@ -114,24 +110,42 @@ function checkout_price(price_obj){
     tax_value.innerText = `US$ ${tax}`
     let total_val = document.getElementById("total_val")
     total_val.innerText = `US$ ${total_sum}`
+    // for proceeding
+    let proceed_btn = document.querySelectorAll("#proccedBuy")
+    proceed_btn.forEach(el=>{
+        el.onclick = ()=>{
+            payment_page(total_sum)
+        }
+    })
 }
 
 let get_inc_btn = document.querySelectorAll("#inc")
 get_inc_btn.forEach((el,i)=>{
+    let count = 1
+    let count_obj = {}
     el.onclick = ()=>{
-        get_data_price(i)
+        count++
+        if(count_obj[i]==undefined){
+            count_obj[i] = count
+        }else{
+            count_obj[i]++
+        }
+        console.log(count_obj)
+        get_data_price(count_obj)
     }
 })
 let get_price_text = document.querySelectorAll("#item_price")
-console.log()
-function get_data_price(i){
+function get_data_price(count){
     data.forEach((el,index) => {
-        if(index==i){
-            let base = Number(get_price_text[index].innerText)
-            let value = Number(el.sale_price.amount)
-            el.sale_price.amount = base+value
-            localStorage.setItem("cart_product",JSON.stringify(data))
-            append_cart_data(data)
+        for (const key in count) {
+            if(index==key){
+                let value = Number(el.sale_price.amount)
+                el.sale_price.amount = value*count[key]
+                localStorage.setItem("cart_product",JSON.stringify(data))
+                append_cart_data(data)
+            }
         }
     });
 }
+
+
