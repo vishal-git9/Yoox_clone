@@ -26,6 +26,10 @@ body{
     top: 0px;
     z-index: 2500;
 }
+.userbar-right>a{
+    text-decoration: none;
+    color: black;
+}
 #user-bar {
     display: flex;
     justify-content: space-between;

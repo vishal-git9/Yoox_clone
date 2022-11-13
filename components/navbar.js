@@ -6,16 +6,15 @@ const navbar=()=>{
             <h5>CUSTOMER CARE</h5>
         </div>
         <div class="userbar-right">
-            <h5> REGISTER</h5>
-            <h5>LOGIN</h5>
-
+            <a href="register.html"><h5> REGISTER</h5></a>
+            <a href="login.html"><h5>LOGIN</h5></a>
         </div>
 
     </div>
     <div id="userbar-secondary">
 
         <div id="cat">
-            <h5>WOMENS</h5><h5>MENS</h5><h5>KIDS</h5><h5>DESIGN&ART</h5>
+            <h5 id="womens_page">WOMENS</h5><h5 id="mens_page">MENS</h5><h5 id="kids_page">KIDS</h5><h5 id="design_page">DESIGN&ART</h5>
         </div>
         <div>
             <img src="https://i.ibb.co/Gc7P5LS/CRUX-removebg-preview.png" alt="">

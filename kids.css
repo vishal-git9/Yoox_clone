@@ -29,12 +29,9 @@ body{
     margin-right: 30px;
     font-size: 13px;
     text-transform: uppercase;
-<<<<<<<< HEAD:kids.css
     color: black;
-========
     font-size: 12px;
     text-decoration: underline;
->>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css
 }
 #top-part>#image-part{
     width: 100%;
@@ -90,21 +87,6 @@ body{
     margin-top: 100px;
     justify-content: space-between;
 }
-
-#designer{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    position: absolute;
-    justify-content: space-around;
-    z-index: 100;
-    top: -50px;
-    left: 370px;
-    align-items: center;
-    width: 300px;
-    height: 450px;
-    padding: 20px;
-}
 #designer>p{
     opacity: 0.3;
     font-family: 'Montserrat', sans-serif;
@@ -156,13 +138,15 @@ body{
     text-decoration: underline;
 <<<<<<<< HEAD:kids.css
 } */
-
+#designer{
+    width: 80%;
+    margin: auto;
+}
 #slider-main{
     background-color: #f3f3f3;
     /* height:1000px; */
     width: 100%;
     text-align: center;
-========
 }
 #new-product{
     flex-basis: 73%;
@@ -249,7 +233,6 @@ body{
 }
 #featured-product{
     margin-top: 60px;
->>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css
 }
 #recent-product{
     margin-top: 60px;
@@ -275,11 +258,16 @@ body{
 }
 
 #girls{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
     margin-bottom: 50px;
     /* border: 1px solid blue; */
 }
 #boys{
+    margin: auto;
     margin-top: 100px;
+    width: 80%;
     /* border: 1px solid blue; */
 }
 
@@ -306,9 +294,8 @@ body{
     width: 100%;
     height: 650px;
     display: flex;
-<<<<<<<< HEAD:kids.css
     padding-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .white-img{
@@ -319,8 +306,7 @@ body{
 .white-img>img{
     width: 100%;
 }
-========
-    height: 2em;
+    /* height: 2em;
     justify-content: center;
     opacity: .7;
     padding: 0;
@@ -424,4 +410,3 @@ body{
     .bottom-image{
         position: absolute;
     }
->>>>>>>> c10f543185de7d31dca7c5057cc6bc12febd7ed2:mens.css

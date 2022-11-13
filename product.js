@@ -5,7 +5,7 @@ navbar_div.innerHTML=navbar();
 
 
 
-
+console.log("hi")
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -27,7 +27,7 @@ for (i = 0; i < acc.length; i++) {
 }
 let page_count = 1
 let requested_item = localStorage.getItem("set_request")
-let send_item = 2026
+let send_item = localStorage.getItem("set_request") || 2026
 let sortnum = 7
 
 let get_item = document.querySelectorAll("#userbar-secondary>#cat>h5")
@@ -41,6 +41,10 @@ get_item.forEach(el=>{
       window.location.href = "mens.html"
     }else if(val=="WOMENS"){
       window.location.href = "womens.html"
+    }else if(val=="KIDS"){
+      window.location.href = "kids.html"
+    }else if(val=="DESIGN&ART"){
+      window.location.href = "design.html"
     }
   }
 })
