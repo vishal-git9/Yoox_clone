@@ -27,7 +27,7 @@ console.log(val)
 const get_details = async ()=>{
     let details = await fetch(`https://unofficial-shein.p.rapidapi.com/products/detail?goods_id=${val}&language=en&country=US&currency=USD`,{
         headers: {
-            'X-RapidAPI-Key': '9ea0e4551dmsh82920695f810e5ap12a458jsn13f417a97d49',
+            'X-RapidAPI-Key': '4d0c031d6amshe2cf21ed2e88017p104014jsnd161c65b13e1',
             'X-RapidAPI-Host': 'unofficial-shein.p.rapidapi.com'
     }
     })
